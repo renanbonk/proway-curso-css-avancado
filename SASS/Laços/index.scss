@@ -1,0 +1,31 @@
+$cores: (
+    color-1:#ff5733,
+    color-2:#33ff57,
+    color-3:#3357ff,
+    color-4:#f333ff,
+    color-5:#33fff5,
+);
+
+body{
+    background-color: black;
+    color: white;
+}
+
+$i: 1;
+@each $nome, $cor in $cores {
+    .#{$nome} {
+        background-color: $cor;
+        ;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    $i: $i + 1;
+}
+
+// @for $i from 1 through 5{
+//     .color-#{$i}{
+//         width: calc(100% / 5 * $i);
+//         background-color: rgba(121, 121, 226, 0.562);
+//         margin-bottom: 10px;
+//     }
+// }
