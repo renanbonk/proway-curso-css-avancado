@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -9,22 +9,22 @@
 </head>
 
 <body>
-    <form action="">
+    <form>
         <div>
             <label for="campo-nome">Nome</label>
-            <input type="text" id="campo-nome" name="nome" required>
+            <input type="text" id="campo-nome" name="nome" required focus>
         </div>
         <div>
             <label for="campo-categoria">Categoria</label>
-            <select name="Categoria" id="campo-categoria" required>
+            <select name="Categoria" id="campo-categoria" required >
                 <optgroup label="Desenvolvimento">
                     <option value="Back-end">Back-end</option>
                     <option value="Front-end">Front-end</option>
                     <option value="full Stack">Full stack</option>
                 </optgroup>
-        </div> 
-        <button>Cadastrar</button>       
+            </select>    
+        </div>
+        <button>Cadastrar</button>   
     </form>
 </body>
-
 </html>

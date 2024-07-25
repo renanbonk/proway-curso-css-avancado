@@ -1,0 +1,23 @@
+body {
+  margin: 3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  background-color: rgb(81, 99, 99);
+}
+form div {
+  margin: 2px;
+  padding: 2px;
+  display: inline-block;
+}
+form div label {
+  display: block;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+form div input {
+  display: block;
+  padding: 5px;
+  color: rgb(15, 15, 15);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,41 @@
+$font-family: Arial, Helvetica, sans-serif;
+
+body {
+    margin: 3;
+    font-family: $font-family;
+}
+
+// %template-base{
+//     padding: 15px;
+//     margin: 10px 0px;
+//     border-radius: 5px;
+//     font-size: 16px;
+//     border: 1px solid transparent;
+//     color: white;
+// }
+
+
+
+
+
+form{
+    background-color: rgb(81, 99, 99);
+    div{
+        margin: 2px;
+        padding: 2px;
+        display: inline-block;
+        label{
+            display: block;
+            padding: 5px;
+            color: rgb(0, 0, 0);
+        }
+        input{
+            display: block;
+            padding: 5px;
+            color: rgb(15, 15, 15);
+        }
+        select:{
+
+        }
+    }
+}
