@@ -1,0 +1,21 @@
+.mensagem.aviso, .mensagem.erro, .mensagem.sucesso {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.mensagem.sucesso {
+  background-color: #28a745;
+  border-color: #1e7e34;
+}
+.mensagem.erro {
+  background-color: #dc3545;
+  border-color: #bd2130;
+}
+.mensagem.aviso {
+  background-color: #ffc107;
+  border-color: #d39e00;
+}/*# sourceMappingURL=index.css.map */
